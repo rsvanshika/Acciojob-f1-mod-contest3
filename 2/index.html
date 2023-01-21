@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+     <div>   <label for="textfield">Text Field</label>
+        <input type="text" placeholder="Input text" id="textfield" name ="textfield" required>
+    </div>
+    <div>
+    <label for="selectfield">Select field</label>
+    <select name="selectfield" id="selectfield" placeholder="select" >
+        <option value="item1">item1</option>
+        <option value="item2">item2</option>
+        <option value="item3">item3</option>
+      </select>
+    </select>
+    </div>
+    <div>
+        <label for="textarea">Text Area</label>
+        <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Text area"></textarea>
+    </div>
+    <div>
+        <label for="textfield">Text Area</label>
+        <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Text area"></textarea>
+    </div>
+   <div>
+    
+  <input type="text" placeholder="Search" name="search"  id="search">
+   </div>
+   <div>
+    
+    <button onclick="decrement()">-</button>  
+<input id="incremnt" type=number min=1 max=110>
+<button onclick="increment()">+</button>
+
+   </div>
+
+   <div>
+    <input type="checkbox" name="check" id="check">
+    <label for="check">Checkbox</label>
+   </div>
+   <div>
+    <input type="radio" name="rad" id="rad">
+    <label for=""rad> Radio button
+
+    </label>
+   </div>
+   <div>
+   <label class="switch"> 
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+   </div>
+   
+   
+    </form>
+</body>
+</html>

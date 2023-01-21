@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+main{
+     display: grid;
+     width:90%;
+     
+   
+     grid-template-rows: 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    padding:30px;
+     grid-gap:1rem;
+    
+   
+   
+    
+}
+.item{
+
+    
+    padding: 100px;
+   margin:2px;
+   
+  
+
+}
+#head{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    padding:10px;
+    border:none;
+    
+   
+}
+#item1{
+    grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start: 2;
+    grid-row-end:4;
+
+    background-image: url(https://4.bp.blogspot.com/-_mvArckgaVg/TeRoYxI8EPI/AAAAAAAAC28/5OXP-yL6wqQ/s1600/Beautiful+Flowers+1+%25284%2529.jpg);
+    background-size: cover;
+    
+
+
+}
+#item2{
+    background-image: url(https://www.wallpapers13.com/wp-content/uploads/2018/03/Cineraria-flower-family-dorotheanthus-petals-with-pink-white-color-macro-photography-2560x1440-840x525.jpg);
+    background-size: cover;
+
+}
+#item3{
+    background-image: url(https://www.wallpapers13.com/wp-content/uploads/2018/04/Gazania-Flower-Field-of-Yellow-Daisies-Colorado-Gold-plant-yellow-flower-type-daisies-1920x1200-840x525.jpg);
+    background-size: cover;
+
+}
+#item4{
+    background-image: url(https://www.wallpapers13.com/wp-content/uploads/2015/12/Marigold-flowers-images-and-wallpapers-8-840x525.jpg);
+    background-size: cover;
+
+
+}
+#item5{
+    background-image: url(https://wallup.net/wp-content/uploads/2019/09/428121-tulip-fields-tulips-field-flower-flowers.jpg);
+    background-size: cover;
+
+}
+#item6{
+    grid-column-start: 1;
+    grid-column-end:3;
+    background-image: url(https://www.wallpapers13.com/wp-content/uploads/2018/04/Oxalis-flowers-flowering-plants-in-the-family-tree-sorrel-Oxalidaceae-containing-about-570-species-purple-blur-petals-insect-macro-3840x2400.jpg);
+    background-size: cover;
+
+}
+#item7{
+    grid-column-start: 3;
+    grid-column-end:-1;
+    background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/06/Summer-red-Flowers-wallpaper-3840x2160.jpg);
+    background-size: cover;
+    /* z index */
+    position: relative;  
+    z-index: -60;
+
+}
+#footer{
+    padding:5px;
+    text-align: right;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    position: relative;
+    top:-125%;
+    z-index:-30;
+}
+
